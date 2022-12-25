@@ -1,0 +1,34 @@
+.opf-full-width-input {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.opf-full-width-input .setting-item-info {
+  margin-bottom: 0.75rem;
+}
+
+.opf-full-width-input .setting-item-control {
+  width: 100%;
+}
+.opf-full-width-input .setting-item-control {
+  justify-content: start;
+}
+.opf-full-width-input .setting-item-control input,
+.opf-full-width-input .setting-item-control textarea {
+  width: 100%;
+}
+
+.opf-mb-4 {
+  margin-bottom: 1rem;
+}
+
+.opf-setting-pattern-list-item {
+  padding: 0.75rem 0;
+  border-top: 1px solid var(--background-modifier-border);
+}
+
+.opf-btn-disabled {
+  opacity: 0.25;
+  cursor: default;
+}

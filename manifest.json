@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-paste-formatter",
+  "name": "Paste Formatter",
+  "version": "1.0.0",
+  "minAppVersion": "1.0.0",
+  "description": "Format and transform text you paste into Obsidian",
+  "author": "Sjors Ottjes",
+  "authorUrl": "https://github.com/sjorso/obsidian-paste-formatter",
+  "isDesktopOnly": false
+}
