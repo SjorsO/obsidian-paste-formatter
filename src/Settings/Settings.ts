@@ -144,7 +144,7 @@ export default class Settings {
   static fromData(plugin: Main, data: PluginSettings): Settings {
     const settings = new Settings(plugin);
 
-    data.patterns.forEach(pattern => {
+    data?.patterns.forEach(pattern => {
       settings.addPattern({
         name: pattern.name,
         searchPattern: pattern.searchPattern,
