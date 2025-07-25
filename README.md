@@ -1,16 +1,18 @@
 # Paste Formatter
-A plugin that formats and transforms text you paste into [Obsidian](https://obsidian.md/).
+A plugin for [Obsidian](https://obsidian.md/) that formats and transforms pasted text using custom regex patterns.
 
 In a nutshell:
-- Define one or more Regex patterns in the settings
-- When you paste into Obsidian the patterns are checked
-- If a pattern matches the pasted text is formatted
+- Define one or more patterns in the settings
+- These patterns are checked when you paste text into Obsidian
+- If a pattern matches, then the pasted text is formatted
 
-Most common use-case:
-- Automatically formatting URLs you paste into a Markdown link with a label
-- (your use case here?)
+A use-case for this plugin is automatically formatting pasted links.
+For example: the GIF below shows a link to a GitHub issue being pasted into Obsidian.
+The plugin applies a pattern to the pasted text and formats the link as a markdown link with the issue number as the label:
 
 ![A link being pasted into Obsidian and being formatted](/img/pasting-in-action.gif)
+
+The screenshot below shows the pattern used in the GIF above:
 
 ![Screenshot of the settings page](/img/settings-page.png)
 
