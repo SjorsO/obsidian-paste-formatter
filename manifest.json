@@ -1,7 +1,7 @@
 {
   "id": "paste-formatter",
   "name": "Paste Formatter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "minAppVersion": "1.0.0",
   "description": "Apply Regex patterns to format and transform pasted text.",
   "author": "Sjors Ottjes",
