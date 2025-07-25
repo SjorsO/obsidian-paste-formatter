@@ -5,6 +5,5 @@
   "minAppVersion": "1.0.0",
   "description": "Apply Regex patterns to format and transform pasted text.",
   "author": "Sjors Ottjes",
-  "authorUrl": "https://github.com/sjorso/obsidian-paste-formatter",
   "isDesktopOnly": false
 }

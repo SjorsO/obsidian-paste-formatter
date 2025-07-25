@@ -27,3 +27,12 @@ ln -nf styles.css ../vault/.obsidian/plugins/obsidian-paste-formatter/styles.css
 
 ln -nf manifest.json ../vault/.obsidian/plugins/obsidian-paste-formatter/manifest.json
 ```
+
+## Releasing
+Using [this guide](https://docs.obsidian.md/Plugins/Releasing/Release+your+plugin+with+GitHub+Actions):
+```
+# Don't forget to update the version number in the manifest.json
+git tag -a 1.0.1 -m "1.0.1"
+git push origin 1.0.1
+# release is made automatically by GitHub Actions
+```
